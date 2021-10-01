@@ -1,0 +1,68 @@
+check_bk                Blanchard-Kahn conditions and eigenvalues
+compute_irf             Compute impulse response functions (IRFs)
+compute_model_stats     Computation of model statistics
+gEcon-package           General Equilibrium Economic Modelling Language
+                        and Solution Framework (gEcon)
+gecon_model             Create objects of 'gecon_model' class
+gecon_model-class       'gecon_model' class
+gecon_par_info-class    'gecon_par_info' class
+gecon_shock_info-class
+                        'gecon_shock_info' class
+gecon_simulation        Create objects of 'gecon_simulation' class
+gecon_simulation-class
+                        'gecon_simulation' class
+gecon_var_info-class    'gecon_var_info' class
+get_index_sets          List of index sets
+get_init_calibr_par     Calibrated parameters' initial values
+get_init_val_var        Variables' initial values
+get_model_info          Accessing information about the name and the
+                        creation date of the model
+get_model_stats         Statistics of the model
+get_par_names           Accessing parameter names used by objects of
+                        'gecon_model' class
+get_par_names_by_index
+                        Parameters corresponding to given indices
+get_par_values          Parameters' values
+get_pert_solution       Recursive laws of motion of the model's
+                        variables
+get_residuals           Retrieving equations' residuals
+get_shock_cov_mat       Accessing a covariance matrix of model shocks.
+get_shock_names         Accessing shock names used by objects of
+                        'gecon_model' class
+get_shock_names_by_index
+                        Shocks corresponding to given indices
+get_simulation_results
+                        Retrieve time series of simulated variables
+get_ss_values           Variables' steady-state (equilibrium) values
+get_var_names           Accessing variables' names used by objects of
+                        'gecon_model' class
+get_var_names_by_index
+                        Variables corresponding to given indices
+initval_calibr_par      Setting initial values of calibrated parameters
+initval_var             Setting initial values of variables.
+is.gecon_model          Is it an object of 'gecon_model' class?
+list_calibr_eq          List calibrating equations
+list_eq                 List model equations
+load_model              Load model from '.model.R' file
+make_model              Make model from '.gcn' file
+par_info                Information about parameters
+plot_simulation         Plot simulation results stored in an object of
+                        'gecon_simulation' class
+print-methods           Print methods for classes in the gEcon package
+random_path             Simulation of the model with a random path of
+                        shocks
+re_solved               Model solution status
+set_free_par            Setting free parameters' values
+set_shock_cov_mat       Setting a covariance matrix of stochastic
+                        shocks.
+set_shock_distr_par     Setting distribution parameters of model shocks
+shock_info              Information about shocks
+show-methods            Show methods for classes in the gEcon package
+simulate_model          Simulation of the model
+solve_pert              Solve the model in a (log-)linearised form (the
+                        first order perturbation)
+steady_state            Compute the steady state (equilibrium) of a
+                        dynamic (static) model
+summary-methods         Summary methods for classes in the gEcon
+                        package
+var_info                Information about variables

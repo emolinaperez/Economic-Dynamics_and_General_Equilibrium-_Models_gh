@@ -1,0 +1,145 @@
+---
+title: "Economic Dynamics and General Equilibrium Modeling"
+author: Dr. Edmundo Molina
+date: August 26, 2019
+output:
+  ioslides_presentation:
+  slidy_presentation: default
+subtitle: "Class 3"
+---
+
+## Today's class
+ - The Canonical Model
+ - Macroeconomic Forecasting
+
+## The basic framework
+- Closed economy
+- Two agents: households and firms
+- The result of the interaction of different agents is what we called General Equilibrium
+- Each agent makes economic decisions based on the maximization of an objective function
+- Households: utility or felicity
+- Firms: profits
+- Assumes perfect competition environment
+
+## Households
+- The economy is populated by millions of households and each makes economic decisions
+- We use the concept of representartive agent and assume that all agents have identical preferences
+- Solving for the representative agent, we can add for the entire population
+- The representative agent is an optimizer
+
+## Households' utility
+ - Utility depends on two elements: Consumption: $C$ and Leisure: $O$
+ - The Utiliy Function can be written as:
+  $$ U(C,O) $$
+ - where $U(.)$ sastisfices:
+ $$ U_C>0, U_O>0 $$
+- both variables have a possitive effect on utility
+
+## Households' utility
+ - Additionally:
+ $$U_CC<0, U_OO<0 $$
+ - The utility function is concave on both arguments
+ - Higher consumption, leads to greater utility, but at a diminishing rate
+ - Finally we assume the utility function is additively separable in time
+ - This means that an agent's utility over a period of time depends only on consumption and leisure during that period
+ - In a dynamic setting, this makes it possible to add one time period's utility to another time period's utility
+
+## Households' budget constraint
+ - In this economy there are two productive factors: labor $L_t$ and physical capital $K_t$
+ - Labor comes from the available endowment of time of each individual
+ - Time cannot be saved or accumulated
+ - It is also assumed that households are owners of capital stocks
+ - Households transform savings into investment and investment into capital
+ - Thus household income comes from renting both productive factors to the production sector of the economy at rental prices
+
+## Households' budget constraint
+ - Housholds can do two things with these earnings: to consume or to save
+ - The budget constraint can be defined as:
+   $$ P_t(C_t+S_t) \leq W_tL_t + R_tK_t $$
+ - $P_t$ is price of final output
+ - $S_t$ is savings
+ - W_t$ is wage defined in terms of consumption units
+ - $R_t$ is the capital rate or return (user cost of capital defined in terms of consumption units)
+ - Human rent: $W_tL_t$
+ - Non-human rent: $R_tK_t$
+ - $P_t$ is normalized to one $P_t=1$
+
+## Households' budget constraint
+ - We need an additional equation: the process of accumulation of physical capital over time (state equation)
+ - For the canonical model we use the simple inventory accumulation equation:
+  $$K_{t+1} = (1-\delta)K_t + I_t $$
+ - $I_t$ is gross investment
+ - $\delta > 0$ is the depreation rate of physical capital. Thus, part of the gross investment that takes place in a period is devoted to the replacement of capital that depreciates between periods.
+ - The value of $\delta$ depends on the proportion of types of assets in the economy
+ - Different assets have different depreciation rates: buildings (low), computers (high)
+ - We assume there is a competitive sector that transforms savings directly into invesment without any cost:
+   $$ S_t=I_t $$
+
+## Households' intertemporal maximization problem
+ - Households' objective is to maximize the sum of discounted utilities over their lifetime.
+ - Thus:
+$$
+ \begin{equation*}
+\begin{aligned}
+& \underset{C_t,O_t}{\text{max}}
+& & E_t \sum_{t=0}^{\infty} \beta^tU(C_t,O_t) \\
+& \text{subject to}
+& & C_t+I_t=W_tL_t+R_tK_t
+\end{aligned}
+\end{equation*} $$
+
+## Households' intertemporal maximization problem
+ - $K_0 >0$ and $E_t(.)$ is the expectation operator
+ - $\beta$ is the intertemporal discount factor, $\beta \in (0,1)$
+$$ \beta=\frac{1}{+1+\theta} $$
+ - $\theta$ is the intertemporal subjective rate of preference $(\theta > 0)$
+ - This parameter indicates how much an agent values his/her future utility
+ - A value of zero means the agent is very concerned about the future
+ - The opposite is true for a lage value
+
+## Firms
+ - Firms produce the goods and services households will consume or save
+ - Firms transform productio factors into final output
+ - Two production factors: physical capital and labor
+ - As we assume that the owners of the production factors are households, then firms need to rent both capital and labor
+ - The rental prices of these factors of production are determined by technology and preferences
+
+## Firms
+ - We assume that firms maximize profits, subject to the technological constraint
+ - Since we assume perfect competition there are super-normal profits (firms profits are zero)
+ - Firms determine the quantity of productive factors which maximize profits
+
+## Firms
+ - The aggregate production function (technological constraint) is assume to have the following form:
+ $$ Y_t=A_tF(K_t,L_t) $$
+ - Where $ Y_t$ is the aggregate output of the economy and $A_t$ is total factor productivity (TFP)
+ - This function is also strictly increasing, strictly concave and twice differentiable:
+ $$ F_K>0, F_L>0 $$
+ $$ F_KK<0, F_LL < 0 $$
+
+## Firms
+  - The first assumption indicates that the higher the level of capital in production, the higher the level of production. The same applies for labor
+  - The second assumption indicates that the marginal productivity of capital and labor is decreasing
+  - $A_t$ denotes the state of neutral technology and is called Total Factor Productivity.
+  - TFP is unobservable, but can be calculated as residual.
+  - TFP is generally interpreted as the level of general knowledge about the productive arts available to an economy
+  - TFP is determined by various factors, including technological knnowledge, organizational structure, human capital and institutional factors.
+
+## Firms
+ - Profit is defined as the difference between total income (output, as its price is normalized to one) and total cost (labor and rental costs), such that:
+  $$ \pi_t= Y_t-W_tL_t-R_tK_t $$
+ - The maximization problem is then given by:
+ $$
+  \begin{equation*}
+ \begin{aligned}
+ & \underset{Y_t}{\text{max}}
+ & & \pi_t= Y_t-W_tL_t-R_tK_t\\
+ & \text{subject to}
+ & & Y_t=A_tF(K_t,L_t)
+ \end{aligned}
+ \end{equation*} $$
+
+## For next class readings
+- Torres Chapter 2 (random)
+- Diebold, F. (1998): Past, present and future of macroeconomic forecasting. Journal of Economic Perspectives, 12(2), 175-192. (random)
+- Basic DGSE model into R. (Josue)

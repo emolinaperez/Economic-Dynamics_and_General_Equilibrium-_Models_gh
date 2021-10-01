@@ -1,0 +1,177 @@
+---
+title: "Economic Dynamics and General Equilibrium Models"
+author: Dr. Edmundo Molina
+date: August 13, 2019
+output:
+  ioslides_presentation:
+  slidy_presentation: default
+subtitle: "Class 2"
+---
+
+## Today's class
+ - DGSE Models
+ - Lucas' Critique
+
+## Dynamic General Stochastic Equilibrium Models (DGSE)
+- Important tool for current macroeconomic analysis
+- Help us understand how an economy as a whole responds to shocks
+- DGSE models are a “macroeconomic laboratory” which can be used to study how agents respond to their environment using micro-foundations
+- Under DGSE all endogenous variables are determined simultaneously
+- Modern macroeconomic analysis concerned with the construction/calibration/ and estimation of DGSE models
+
+## Shortcomings
+- Since, the focus in on macro behavior, the need to be aggregated (i.e., production function)
+- Assumptions about reality need to be simplistic:
+- Rational expectations
+- Forward looking behavior
+-  Are these problematic?
+
+## DSGE framework attempts to address two main challenges:
+- Lucas Critique
+- Development of micro-founded macroeconomic models
+
+## All scientific inquiries require laboratories and experimentation
+- To replicate conditions of real world in controlled environments
+- To develop scale models
+- To decompose complex phenomena into its fundamental parts
+- Thus, natural sciences are an important reference (i.e., physics, chemistry)
+- However, human factor in social sciences changes substantially the context (… Why?)
+
+## In an economy …
+- Societies build institutions
+- Agents make decisions
+- Agents react to disturbances
+- Huge amounts of endogeneities!
+- Thus, it is a monumental challenge to develop useful scale models
+
+## DGSE framework
+- Developed by Ramsey (1927, 1928)
+- DGSE models are in fact scale models, which can be used to study effects of fiscal and monetary policy
+
+## Why DGSE can be considered a useful laboratory?
+- The outcome of the model depends on decisions made by agents: households, firms, government, entrepreneurs, central bank and foreign sector.
+- Equilibrium result of economic decisions made by all agents
+
+## Why DGSE can be considered a useful laboratory?
+- DGSE models consider multiple and complex (i.e., non-linear) relationships between different economic variables
+- All macroeconomic variables in reality are intertwined
+- The assumption of “ceteris paribus” is only a pipe dream
+
+## Why DGSE can be considered a useful laboratory?
+- Time plays a fundamental role
+- Path dependency
+- When a shock occurs, the economy goes through a period of disequilibrium
+- Investment only makes sense in a dynamic setting (i.e., state variables)
+
+## Modeling Strategy
+- Construction of formal structures through equations that reflect the interrelation between the different economic variables
+- These simplified structures is what we called a model
+- The focus is not on building structures that are realistic or intuitive, but that are able to explain observed dynamics
+
+## Modeling Strategy
+- DGSE models are based on the microeconomic analysis of economic agents’ decisions
+- Macroeconomic theory should be consistent with the underlying behavior of millions of consumers and millions of firms
+- Thus the need to use micro-foundations
+
+## DGSE Characteristics
+- Explain observed behavior
+- Offer policy recommendations
+- Use of scientific method: measurement, theory and validation
+
+## DGSE Characteristics
+- Measurement: description of facts
+- Theories describe inner mechanisms
+- Validation: usefulness of the model to explain observed behavior
+
+## Basis Structure
+- Defined by the following system of equations:
+$$x_t = E_t [F(x_{t+1},Z_t,U_t)]$$
+where:
+- $x_t$: vector of endogenous variables
+- $Z_t$: vector of exogenous variables
+- $E_t$: expectation operator
+- $U_t$: vector of random disturbances with proper density function $F(.)$
+
+## Basis Structure
+- The function $F(.)$ is what we call theory
+- Basic solution:  sequence of probability distributions
+- Key element: the value of endogenous variables in any given period depends on its future expected value
+
+## Why is this important?
+- Theoretical models key to make sense of data
+- Theoretical models are tractable
+- Theoretical models -> simulations
+- Structural forecasting
+- Theoretical bedrock: Ramsey’s model
+
+## Ramsey’s neoclassical dynamic general equilibrium model
+- Three agents: household, firms and government
+- Households decide across consumption (savings) and work (leisure)
+- Firms decide how much they will produce
+- Equilibrium occurs when all decisions are compatible and feasible
+
+## Lucas Critique (1976)
+- Econometric models and theoretical models sometimes at odds (mostly by inexperienced users)
+- However, Lucas sees these as complementary
+- Main point: economic policy based solely on econometrics in need of major revision (the paper was written in 1976, what has happened since then? )
+
+## Lucas points to ill-informed and casual criticism
+- Models are “too big” or “too litle”
+- Too messy, too simplistic (not messy enough)
+- Lucas asserts that we need more substantive, rigorous criticism
+- He does recognizes the importance of econometrics
+
+## Theory of economic policy (1/3)
+- The dynamics of an economy is determined by:
+           $$y_{t+1}= f(y_t,x_t,\epsilon_t)$$
+- $t$=time
+- $y_t$=state variables
+- $x_t$= exogenous forcing variables
+- $\epsilon_t$= i.i.d random shocks
+
+## Theory of economic policy (2/3)
+- The tasks of empiricists is then to estimate :
+       $$f(y,x,\epsilon) = F(y,x,\theta,\epsilon)$$
+- $\theta$: estimated parameters
+
+- $F$: defined a priori
+
+## Theory of economic policy (3/3)
+- With knowledge of $F$ and $\theta$, policy evaluation is straightforward
+- Policy is described in vector $x_t$
+- Consider a hypothetical “social function”
+ $$\sum_{t=0}^{\infty} \beta^{t}u(y_t,x_t,\epsilon_t)$$
+
+## The critique to econometric practice
+- The vector-valued function $F$ should be informed by theory as it represents behavioral relationships (e.g. Philips curve vs business cycle)
+- Success in short-term forecasting should not be considered the only criteria to validate long-term policy impacts… why?
+- The use of econometrics is inconsistent, example ?
+
+## The theoretical critique
+- Short-term forecasting ability of econometric models provides no evidence for accepting policy simulations using econometric modeling as accurate
+- In the economy $y_{t+1}=F(y_t,x_t,\theta,\epsilon_t)$ there is no presumption that $(F,\theta)$ will be easy to discover
+- However, the central assumption is that once these are “approximately” known they will be stable under arbitrary changes in the behavior of the forcing vector $x_t$
+- For Lucas, economic theory indicates that this presumption is unjustified, why?
+
+## Why?
+- Because the stability of $(F, \theta)$ assumes that agents do not react to changes in policy and are not forward looking
+- Thus, Lucas concludes that policy simulations coming from econometric models are meaningless
+
+## Conclusions
+- The structure of an econometric model consists of optimal decision rules of economic agents
+- Economic theory stipulates that optimal decision rules vary systematically with policy intervention
+- The above makes the two approaches incompatible, thoughts?
+
+
+## For next class
+ - Consider the deterministic Cagan (1956) model
+ $$ m_t - p_t = -\alpha(p_{t+1}^{e}-p_t), \alpha>0 $$
+- where $m_t$ is the log of the nominal money supply and $p_t$ is the log of the price level. Under rational expectations $p_{t+1}^{e}=p_{t+1}$
+- Suppose that money supply satisfices $m_{t+1}=\rho*m_t + \mu, \rho \in [0,1]$, $m_0$ given
+a. Give conditions on the parameters such that there is exists a unique stable solution for $p_{t}$. Derive its solution
+b. Suppose there is annoucement that money supply will increase on a future T. In particular, the money supply $m_t=\tilde{m}$ for $t<T$ and $m_t=\tilde{m}'$ for $t<T$. Derive the path for ${p_t}$
+- The problem is assigned to:
+
+## For next class readings
+- Torres Chapter 2 (random)
+- Diebold, F. (1998): Past, present and future of macroeconomic forecasting. Journal of Economic Perspectives, 12(2), 175-192. (random)
