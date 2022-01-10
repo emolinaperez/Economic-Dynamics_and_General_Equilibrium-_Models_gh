@@ -1,75 +1,137 @@
 ---
 title: "Economic Dynamics and General Equilibrium Models"
 author: Dr. Edmundo Molina
-date: August 13, 2019
+date: August, 2022
 output:
-  revealjs::revealjs_presentation:
-    theme: default
-    highlight: espresso
-    reveal_options:
-     slideNumber: true
+  slidy_presentation: default
+  ioslides_presentation:
 subtitle: "Class 1"
 ---
 
-## Today's class
- - Course Logistics <br/><br/>
- - Evaluation <br/><br/>
- - Assignment 1
+## Today's class <br/><br/>
 
-## Course Logistics
- - Piazza is our communication platform <br/><br/>
- - All assignments are submitted through Piazza <br/><br/>
- - All questions are posted on Piazza <br/><br/>
- - Arrive on time. Once the class starts, you need to wait until the  break to get it <br/><br/>
- - We will work on class solving the problems. Come prepared!
+<br /> 
+
+- Course Logistics <br/><br/>
+- Evaluation <br/><br/>
+- Assignment 1
+
+## Course Logistics <br/><br/>
+
+ - **Canvas** is our communication platform <br/><br/>
+ - All assignments are submitted through Canvas <br/><br/>
+ - All questions are posted on Canvas
+
+```{r, out.width='50%', fig.align='center', echo=FALSE}
+ knitr::include_graphics("Canvas_Imagen.png")
+```
+ 
+## Key Aspects
+<br /> 
+<br /> 
+
+<br /> 
+
+  Arrive on time. Once the class starts, you need to wait until the  break to get it <br/><br/>
+  _We will work on class solving the problems._
+  
+<br /> 
+  
+  **Come prepared!**
 
 ## Evaluation
- - Weekly reading control: 20%
- - Weekly random assignments (modeling and/or problem sets): 20%
- - Final paper: 30%
- - Exam: 30%
+<br /> 
+<br /> 
+
+<br /> 
+
+-- Total Assignments | 100%
+---------------------- | ----------------------
+Weekly reading control | 20%
+Weekly random assignments  | 20%
+Final paper            | 30%
+Exam                   | 30%
+
+
+
 
 ## Textbook
 ```{r, out.width='50%', fig.align='center', echo=FALSE}
- knitr::include_graphics('TextBook.jpg"')
+ knitr::include_graphics("TextBook.jpg")
+ ```
+ 
+## Modeling software 
+```{r, out.width='90%', fig.align='center', echo=FALSE}
+ knitr::include_graphics("gEcon.jpg")
  ```
 
-## Modeling software {data-background="gEcon.jpg"}
-
 ## Course schedule-Part 1-
- - Week 1: Review, motivation and set up <br/><br/>
- - Week 2: Introduction to DSGE Modeling (Torres, Chapter 1) <br/><br/>
- - Week 3: The Canonical Model (Torres, Chapter 2) <br/><br/>
- - Week 4: The Canonical Model (Torres, Chapter 2) <br/><br/>
+<br /> 
+<br /> 
+   
+Part 1  | Session                       | Chapter
+------- | ----------------------------  | --------------
+Week 1  | Review, motivation and set up | 
+Week 2  | Introduction to DSGE Modeling | Chapter 1 (Torres)
+Week 3  | The Canonical Model           | Chapter 2 (Torres)
+Week 4  | The Canonical Model           | Chapter 2 (Torres)
+ 
 
 ## Course schedule-Part 2-
- - Week 5: Habit Formation (Torres, Chapter 3) <br/><br/>
- - Week 6: Habit Formation (Torres, Chapter 3) <br/><br/>
- - Week 7: Non-Ricardian Agents (Torres, Chapter 4) <br/><br/>
- - Week 8: Non-Ricardian Agents (Torres, Chapter 4) <br/><br/>
+<br /> 
+<br /> 
+
+Part 2 | Session | Chapter
+------- | ----------------------------  | --------------
+Week 5  | Habit Formation  | Chapter 3 (Torres)
+Week 6  | Habit Formation  | Chapter 3 (Torres)
+Week 7  | Non-Ricardian Agents          | Chapter 4 (Torres)
+Week 8  | Non-Ricardian Agents           | Chapter 4 (Torres)
+
 
 ## Course schedule-Part 3-
- - Week 9: Investment Adjustments Costs (Torres, Chapter 5) <br/><br/>
- - Week 10: Investment Adjustments Costs (Torres, Chapter 5) <br/><br/>
- - Week 11: Investment-specific technological change (Torres, Chapter 6) <br/><br/>
- - Week 12: Investment-specific technological change (Torres, Chapter 6) <br/><br/>
+<br /> 
+<br /> 
+
+Part 3 | Session | Chapter
+------- | ----------------------------  | --------------
+Week 9  | Investment Adjustments Costs  | Chapter 5 (Torres)
+Week 10  | Investment Adjustments Costs  | Chapter 5 (Torres)
+Week 11  | Investment-specific technological change          | Chapter 6 (Torres)
+Week 12  | Investment-specific technological change           | Chapter 6 (Torres)
+
 
 ## Course schedule-Part 4-
- - Week 13: Taxes (Torres, Chapter 7) <br/><br/>
- - Week 14: Taxes (Torres, Chapter 7) <br/><br/>
- - Week 15: Public Spending (Torres, Chapter 8) <br/><br/>
- - Week 16: Public Spending (Torres, Chapter 8) <br/><br/>
+<br /> 
+<br /> 
+  
+Part 4 | Session | Chapter
+------- | ----------------------------  | --------------
+Week 13  | Taxes  | Chapter 7 (Torres)
+Week 14  | Taxes  | Chapter 7 (Torres)
+Week 15  | Public Spending  | Chapter 8 (Torres)
+Week 16  | Public Spending  | Chapter 8 (Torres)
+Week 17  | Public Capital  | Chapter 9 (Torres)
+Week 18  | Exam, Paper Due | 
 
-## Course schedule-Part 4-
- - Week 17: Public Capital (Torres, Chapter 9) <br/><br/>
- - Week 18: Exam, Paper Due
 
-## For next class
-- Assigned readings:
+## For next class 
+<br /> 
+
+- Readings:
   1. Torres, Chapter 1
-  2. Lucas, R. (1976): Econometric Policy Evaluation: A Critique
+  2. Lucas, R. (1976): *Econometric Policy Evaluation: A Critique*
   3. Owner: random
+
+<br /> 
+
 - Problem Set:
-  1. Download succesfully gEcon: http://gecon.r-forge.r-project.org/
+  1. Download gEcon: http://gecon.r-forge.r-project.org/
   2. Come ready to work with it
-  3. Owner: Adrian
+  3. Owner: Víctor
+  
+  <br /> 
+- Other Sources <br /> 
+  Video: https://youtu.be/4CajbmZdwpM
+  <br /> 
+  <br /> 
